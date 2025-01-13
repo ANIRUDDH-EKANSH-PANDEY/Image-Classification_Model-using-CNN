@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <title>Image Classification</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Classification</h1>
+      <p>
+        Upload an image to classify it into one of the predefined categories.
+      </p>
+      <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required />
+        <button type="submit">Classify</button>
+      </form>
+    </div>
+  </body>
+</html>
