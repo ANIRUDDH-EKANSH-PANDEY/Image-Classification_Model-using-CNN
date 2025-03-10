@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static'
 
 # Load your trained model
-model = load_model("./static/cifar10_enhanced_cnn_model_1.h5")
+model = load_model("./static/cifar10_enhanced_cnn_model_1.h5",compile=False)
 categories = ["Airplane", "Automobile", "Bird", "Cat", "Deer", "Dog", "Frog", "Horse", "Ship", "Truck"]
 
 def preprocess_image(image_path):
