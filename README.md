@@ -1,4 +1,3 @@
-
 # Image Classification Web App with Dashboard
 
 This project is a Flask-based web application that uses a pre-trained TensorFlow model for classifying images from the CIFAR-10 dataset. Additionally, it includes a dashboard for visualizing classification metrics and managing image uploads.
@@ -37,19 +36,22 @@ This project is a Flask-based web application that uses a pre-trained TensorFlow
 ## Setup and Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-repo/image-classification-web-app.git
    cd image-classification-web-app
    ```
 
 2. Create a virtual environment and activate it:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # For Linux/Mac
-   venv\Scriptsctivate     # For Windows
+   venv\Scripts\activate     # For Windows
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -59,11 +61,13 @@ This project is a Flask-based web application that uses a pre-trained TensorFlow
 ## Running the Application
 
 1. **Run the Web App**:
+
    ```bash
    python app.py
    ```
 
 2. **Run the Dashboard**:
+
    ```bash
    python dashboard/dashboard.py
    ```
@@ -75,6 +79,7 @@ This project is a Flask-based web application that uses a pre-trained TensorFlow
 ## How to Use
 
 1. **Image Classification**:
+
    - On the home page, upload an image in PNG/JPEG format.
    - Click on "Classify".
    - View the prediction result, including the predicted class, confidence score, and the uploaded image.
@@ -92,14 +97,17 @@ This project is a Flask-based web application that uses a pre-trained TensorFlow
 ## Screenshots
 
 ### Home Page
+
 Upload an image for classification:
 ![Home Page Screenshot](./static/screenshots/home_page.png)
 
 ### Prediction Result
+
 View the prediction details:
 ![Result Page Screenshot](./static/screenshots/result_page.png)
 
 ### Dashboard
+
 Interactive metrics visualization:
 ![Dashboard Screenshot](./static/screenshots/dashboard.png)
 
